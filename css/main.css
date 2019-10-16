@@ -6,6 +6,7 @@ html {
   font-family: "sans-serif";
   line-height: 1.5;
   background-color: #c9b5ab;
+  box-sizing: border-box;
 }
 
 /* ----------------Body---------------- */
