@@ -10,3 +10,8 @@ html {
 }
 
 /* ----------------Body---------------- */
+
+div {
+  margin: .3em;
+  padding: .6em .5em .75em;
+}
