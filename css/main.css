@@ -53,8 +53,8 @@ nav {
 }
 
 nav a:hover {
-  background-color: #f33
-  color: #fff
+  background-color: #f33;
+  color: #fff;
   text-decoration: none;
 }
 
