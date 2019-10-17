@@ -16,6 +16,8 @@ div {
   padding: .6em .5em .75em;
   display: inline-block;
   border-radius: 10px;
+  display: block;
+    color: ##79756f;
 }
 
 h1, h2, h3, h4 {
