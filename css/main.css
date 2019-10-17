@@ -7,22 +7,30 @@ html {
   box-sizing: border-box;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 /* ----------------Body---------------- */
 
-a {
-  text-decoration: none;
-  color: #fff
+body {
+  margin: 0;
 }
 
-.header {
+header {
   display: block;
-  margin:
-  color: #79756f
+  margin: 0;
+  background-color: #79756f;
+  padding: .6em;
+  border-top: solid #595652 3px;
+  border-bottom: solid #595652 3px;
 }
 
-.header h1 {
+h1 {
   text-align: center;
   colour: #fff;
+  margin: 0;
+  font-family: Bevan, serif;
 }
 
 .introduction {
@@ -38,9 +46,10 @@ a {
 nav {
   text-align: center;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
+  list-style-type: none;
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 nav a:hover {
@@ -51,44 +60,32 @@ nav a:hover {
 
 header ul {
   color: #fff;
-}
-
-.terrestrial {
-  display: inline-block;
-  margin: 0 .3em 1em;
-  max-width: 20em;
-  padding: 1em;
-  background-color: #713837;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.mars {
-  display: inline-block;
-  margin: 0 .3em 1em;
-  max-width: 20em;
-  padding: 1em;
-  background-color: #713837;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.venus {
-  display: inline-block;
-  margin: 0 .3em 1em;
-  max-width: 20em;
-  padding: 1em;
-  background-color: #713837;
-  border-radius: 10px;
-  text-align: center;
-}
-
-body {
-  display: block;
   padding: 0;
   margin: 0;
-  background-color: #79756f;
-  border-color: #595652;
-  border-width: medium;
-  border-style: bold;
+}
+
+.planets {
+  display: inline-block;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: .5em .75em;
+  background-color: #713837;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.header ul{
+  color: #fff
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  color: #79756f
+  display: block;
+  margin: 0;
 }
