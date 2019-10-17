@@ -78,14 +78,14 @@ a {
   display: inline-block;
 }
 
-.header ul{
-  color: #fff
+.header ul {
+  color: #fff;
   padding: 0;
   margin: 0;
 }
 
 .header {
-  color: #79756f
+  color: #79756f;
   display: block;
   margin: 0;
 }
