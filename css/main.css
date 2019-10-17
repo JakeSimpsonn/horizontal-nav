@@ -1,9 +1,7 @@
 /* ----------------General---------------- */
 
 html {
-  font-weight: normal;
-  font-family: Bevan;
-  font-family: sans-serif;
+  font-family: Bevan, sans-serif;
   line-height: 1.5;
   background-color: #c9b5ab;
   box-sizing: border-box;
@@ -11,18 +9,83 @@ html {
 
 /* ----------------Body---------------- */
 
-div {
-  margin: .3em;
-  padding: .6em .5em .75em;
+a {
+  text-decoration: none;
+  color: #fff
+}
+
+.header {
+  display: block;
+  margin:
+  color: #79756f
+}
+
+.header h1 {
+  text-align: center;
+  colour: #fff;
+}
+
+.introduction {
   display: inline-block;
+  margin: 0 .3em 1em;
+  max-width: 20em;
+  padding: 1em;
+  background-color: #713837;
   border-radius: 10px;
+  text-align: center;
 }
 
-h1, h2, h3, h4 {
+nav {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #f33
+  color: #fff
+  text-decoration: none;
+}
+
+header ul {
   color: #fff;
-  font-family: sans-serif;
 }
 
-nav ol {
-  list-style-type: none;
+.terrestrial {
+  display: inline-block;
+  margin: 0 .3em 1em;
+  max-width: 20em;
+  padding: 1em;
+  background-color: #713837;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.mars {
+  display: inline-block;
+  margin: 0 .3em 1em;
+  max-width: 20em;
+  padding: 1em;
+  background-color: #713837;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.venus {
+  display: inline-block;
+  margin: 0 .3em 1em;
+  max-width: 20em;
+  padding: 1em;
+  background-color: #713837;
+  border-radius: 10px;
+  text-align: center;
+}
+
+body {
+  display: block;
+  padding: 0;
+  margin: 0;
+  background-color: #79756f;
 }
